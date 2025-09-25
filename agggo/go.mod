@@ -3,7 +3,7 @@ module github.com/tillberg/aggbench/agggo
 go 1.24.5
 
 require (
-	github.com/apache/arrow/go/v15 v15.0.2
+	github.com/apache/arrow-go/v18 v18.1.0
 	github.com/marcboeker/go-duckdb/v2 v2.3.3
 	github.com/stretchr/testify v1.10.0
 	github.com/tillberg/alog v0.0.0-20230517040013-2047befafdcd
@@ -12,7 +12,6 @@ require (
 require (
 	github.com/JohnCGriffin/overflow v0.0.0-20211019200055-46fa312c352c // indirect
 	github.com/andybalholm/brotli v1.1.1 // indirect
-	github.com/apache/arrow-go/v18 v18.1.0 // indirect
 	github.com/apache/thrift v0.21.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/duckdb/duckdb-go-bindings v0.1.17 // indirect
@@ -35,6 +34,7 @@ require (
 	github.com/minio/c2goasm v0.0.0-20190812172519-36a3d3bbc4f3 // indirect
 	github.com/pierrec/lz4/v4 v4.1.22 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/rogpeppe/go-internal v1.9.0 // indirect
 	github.com/zeebo/xxh3 v1.0.2 // indirect
 	golang.org/x/exp v0.0.0-20250128182459-e0ece0dbea4c // indirect
 	golang.org/x/mod v0.22.0 // indirect
